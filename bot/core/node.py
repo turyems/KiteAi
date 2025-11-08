@@ -5,7 +5,7 @@ from typing import List, Optional
 
 import aiohttp
 from fake_useragent import UserAgent
-from tenacity import stop_after_attempt, retry, retry_if_not_exception_type, wait_random, retry_if_exception_type
+from tenacity import stop_after_attempt, retry, retry_if_not_exception_type, wait_random, retry_if_exception_type 
 
 from data.config import MIN_PROXY_SCORE, CHECK_POINTS, STOP_ACCOUNTS_WHEN_SITE_IS_DOWN, NODE_TYPE
 
