@@ -1,6 +1,6 @@
 aiohttp
 websockets==12.0
-websockets_proxy==0.1.2
+websockets_proxy==0.1.2 
 annotated-types==0.7.0
 aiofiles==24.1.0
 web3
